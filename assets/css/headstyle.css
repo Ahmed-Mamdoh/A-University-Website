@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+#offer{
+    background-color: #32404d;
+    height: 5vw;
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    font-size: 1.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+#offer p{
+    margin-left: 15vw;
+}
+
+#offer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 9%;
+}
+
+#offer a:hover{
+    letter-spacing: 2px;
+    transition: letter-spacing 0.5s ease;
+}
+#offer a:not(:hover){
+    letter-spacing: 0px;
+    transition: letter-spacing 0.5s ease;
+}
+
+#time{
+    display: flex;
+    margin-left: 7%;
+}
+
+#time span{
+    color: #06a981;
+    font-size: 22px;
+    font-weight: 600;
+    font-size: 1.5vw;
+
+}
+
+#time *{
+    margin-left: 20%;
+    font-size: 1vw;
+
+}
+
+

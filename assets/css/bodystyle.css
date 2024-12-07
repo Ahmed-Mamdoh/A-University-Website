@@ -1,0 +1,76 @@
+
+#intro img{
+    width: 98.8vw;
+    position: relative;
+    filter: saturate(60%);
+}
+
+#intro h6{
+    position: absolute;
+    top: 19vw;
+    color: white;
+    font-size: 1.6vw;
+    left: 7%;
+    font-family: sans-serif;
+    font-weight: lighter;
+    animation-name: onload;
+    animation-duration: 1s;
+}
+
+#intro #pre1{
+    position: absolute;
+    top: 22vw;
+    color: white;
+    font-size: 3vw;
+    left: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+    animation-name: onload;
+    animation-duration: 1.25s;
+}
+
+#intro #pre2{
+    position: absolute;
+    top: 33vw;
+    color: white;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    left: 7%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    animation-name: onload;
+    animation-duration: 1.5s;
+}
+
+#intro input{
+    position: absolute;
+    top: 41vw;
+    left: 7%;
+    height: 4.5vw;
+    width: 15vw;
+    border: none;
+    background-color: #007a5c;
+    color: white;
+    font-size: 1.3vw;
+    font-family: 'Montserrat', sans-serif;
+    animation-name: onload;
+    animation-duration: 2s;
+}
+
+#intro input:hover{
+    background-color: rgb( 255, 255, 255, 0 );
+    border: 1px solid white;
+    transition: 0.25s ease-in;
+}
+#intro input:not(:hover){
+    background-color: #007a5c;
+    border: 0px;
+    transition: 0.25s ease-out;
+}
+
+@keyframes onload{
+    from{
+        top: 100%;
+        opacity: 0%;
+    }
+}
