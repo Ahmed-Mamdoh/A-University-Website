@@ -101,3 +101,66 @@
 #programs #programSellect div a:hover {
     letter-spacing: 1px;
 }
+
+@media (max-width: 576px) {
+    #programs{
+        height: 200vw;
+    }
+
+    #programs #programsText h1{
+        font-size: 6vw;
+    }
+
+    #programs #programsText pre {
+        font-size: 2.2vw;
+        line-height: 4vw;
+        margin-bottom: 3vw;
+    }
+
+    #programs #programSellect {
+        flex-direction: column;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    #programs #programSellect div {
+        width: 90vw;
+        height: 90vw;
+        border: 1px solid #D9E2E9
+    }
+
+    #programs #programSellect #program1 {
+        margin-left: 0vw;
+    }
+    
+    #programs #programSellect #program2 {
+        margin-right: 0vw;
+    }
+    
+    #programs #programSellect div img{
+        padding: 1.5vw 0vw 0vw 2vw;
+        height: auto;
+        width: 86vw;
+        justify-self: center;
+    }
+
+    #programs #programSellect div h3{
+        font-size: 5vw;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 4vw;
+    }
+    
+    #programs #programSellect div p{
+        font-size: 4vw;
+        line-height: 6vw;
+        margin-left: 2vw;
+        margin-bottom: 4vw;
+        padding-right: 2vw;
+    }
+    
+    #programs #programSellect div a {
+        margin-left: 2vw;
+        font-size: 5vw;
+    }
+}

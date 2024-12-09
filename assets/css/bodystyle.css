@@ -74,3 +74,39 @@
         opacity: 0%;
     }
 }
+
+@media (max-width: 576px) {
+    #intro img{
+        content: url(../images/hero2.jpeg);
+        width: 97vw;
+        height: 110vw;
+    }
+
+    #intro h6{
+        top: 17vw;
+        font-size: 5.5vw;
+        left: 10%;
+    }
+
+    #intro #pre1{
+        top: 55vw;
+        font-size: 5vw;
+        left: 10%;
+    }
+
+    #intro #pre2{
+        top: 80vw;
+        font-size:3vw;
+        font-weight: 700;
+        line-height: 5vw;
+        left: 10%;
+    }
+
+    #intro input{
+        top: 105vw;
+        left: 10%;
+        height: 9vw;
+        width: 30vw;
+        font-size: 3vw;
+    }
+}

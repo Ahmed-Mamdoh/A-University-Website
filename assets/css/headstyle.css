@@ -20,7 +20,7 @@ body{
 #offer a{
     color: white;
     text-decoration: none;
-    margin-left: 9%;
+    margin-left: 10vw;
 }
 
 #offer a:hover{
@@ -34,21 +34,43 @@ body{
 
 #time{
     display: flex;
-    margin-left: 7%;
+    margin-left: 7vw;
 }
 
 #time span{
     color: #06a981;
-    font-size: 22px;
     font-weight: 600;
     font-size: 1.5vw;
-
 }
 
 #time *{
     margin-left: 20%;
     font-size: 1vw;
-
 }
 
 
+@media (max-width: 576px) {
+    #offer{
+        height: 10vw;
+        font-size: 1.9vw;
+    }
+
+    #offer p{
+        margin-left: 5vw;
+    }
+
+    #time{
+        margin-left: 3vw;
+    }
+
+    #time span{
+        color: #06a981;
+        font-weight: 600;
+        font-size: 2.2vw;
+    }
+    
+    #time *{
+        margin-left: 14%;
+        font-size: 1.5vw;
+    }
+}
