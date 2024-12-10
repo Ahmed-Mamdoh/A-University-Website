@@ -77,8 +77,8 @@
 
 @media (max-width: 576px) {
     #intro img{
-        content: url(../images/hero2.jpeg);
-        width: 97vw;
+        content: url(../images/hero2.webp);
+        width: 100vw;
         height: auto;
     }
 
@@ -86,6 +86,7 @@
         top: 40vw;
         font-size: 5.5vw;
         left: 10%;
+        font-weight: 700;
     }
 
     #intro #pre1{
@@ -98,7 +99,7 @@
         top: 110vw;
         font-size:3vw;
         font-weight: 700;
-        line-height: 5vw;
+        line-height: 6vw;
         left: 10%;
     }
 
