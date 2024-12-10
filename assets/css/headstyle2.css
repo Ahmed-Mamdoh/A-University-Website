@@ -72,17 +72,18 @@
 
 @media (max-width: 576px) {
     #header2{
-        height: 11vw;
+        height: 20vw;
     }
 
     #header2 img{
-        margin-left: 5vw;
-        width: 20vw;
+        display: none;
+        margin-left: 1vw;
+        width: 30vw;
     }
 
     #header2 a{
-        margin-left: 10%;
-        font-size: 2.3vw;
+        margin-left: 8%;
+        font-size: 4.5vw;
     }
 
     #header2 p{
